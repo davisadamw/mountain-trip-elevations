@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # identify source directory
-src_dir <- 'test_data'
+src_dir <- 'data/test'
 
 # unzip all the rasters in source
 map(list.files(src_dir, full.names=T), unzip, exdir=src_dir)

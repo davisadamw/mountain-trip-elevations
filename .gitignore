@@ -2,5 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-test_data/
+data/test/
 data/dem/
