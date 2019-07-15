@@ -7,7 +7,7 @@ mtn_trips <- bind_rows(
   read_csv('data/mountain_trips/gen2_mountain_once_trips.csv'))
 
 # identify keeper variables
-id_vars <- c('trip_id','parent_event_id')
+id_vars <- c('id')
 
 # pull out only keeper variables and LL, convert to long (one row for each LL pair)
 mtn_trips_long <- mtn_trips %>% 
